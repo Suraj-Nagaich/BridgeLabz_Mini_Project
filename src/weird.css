@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f5f5f5;
+}
+
+.outerBox {
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.tinyPage {
+  width: 900px;
+  margin: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 18px 22px 26px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.16);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.topHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.topHead h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+}
+
+.badTabs {
+  display: inline-flex;
+  background: #f3f4f6;
+  border-radius: 99px;
+  padding: 3px;
+  gap: 4px;
+}
+
+.badTabs button {
+  border-radius: 999px;
+  border: none;
+  padding: 6px 14px;
+  font-size: 12px;
+  background: transparent;
+  cursor: pointer;
+  color: #4b5563;
+}
+
+.badTabs .onTab {
+  background: white;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.24);
+  color: #111827;
+}
+
+.btnRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.btnChunk {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ugBtn {
+  border-radius: 999px;
+  border: none;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #111827;
+  color: white;
+}
+
+.ugBtn.small {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.ugBtn.gray {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.ugBtn.red {
+  background: #b91c1c;
+}
+
+.ugBtn.green {
+  background: #15803d;
+}
+
+.ugBtn.blue {
+  background: #1d4ed8;
+}
+
+.ugBtn.yellow {
+  background: #d97706;
+}
+
+.ugBtn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.dataArea {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.dataSolo {
+  width: 100%;
+}
+
+.boxy {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+}
+
+.listTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.listTable thead {
+  background: #f3f4f6;
+}
+
+.listTable th,
+.listTable td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.listTable tbody tr:hover {
+  background: #f9fafb;
+}
+
+.chip {
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  display: inline-block;
+}
+
+.chip.good {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.chip.ok {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.chip.bad {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.formStack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.formRow label {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.formRow input,
+.formRow select {
+  padding: 7px 9px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 13px;
+}
+
+.formRow input:focus,
+.formRow select:focus {
+  outline: none;
+  border-color: #1d4ed8;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.2);
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.miniLabel {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #9ca3af;
+}
+
+.miniVal {
+  font-size: 14px;
+}
+
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tinyTag {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 7px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.tinyTag.dark {
+  background: #111827;
+  color: #e5e7eb;
+}
+
+.tinyTag.muted {
+  background: #f3f4f6;
+  color: #4b5563;
+}
+
+.idDot {
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: #111827;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.tinyNote {
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.emptyText {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightSide h3 {
+  margin: 0 0 4px;
+  font-size: 14px;
+}
+
+.rightList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.rightItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightItem span {
+  font-size: 12px;
+}
+
+.bigGrade {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.bigGrade.good {
+  color: #16a34a;
+}
+
+.bigGrade.ok {
+  color: #d97706;
+}
+
+.bigGrade.bad {
+  color: #dc2626;
+}
+
+.bubbleRow {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.bubbleItem {
+  font-size: 11px;
+  padding: 3px 6px;
+  border-radius: 999px;
+  background: #f3f4f6;
+}
+
+
