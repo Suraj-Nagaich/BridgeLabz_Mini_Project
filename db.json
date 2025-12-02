@@ -5,7 +5,7 @@
       "name": "ram",
       "section": "A",
       "marks": 55,
-      "grade": "C"
+      "grade": "B"
     },
     {
       "id": 2,
@@ -13,6 +13,41 @@
       "section": "B",
       "marks": 89,
       "grade": "A"
+    }
+    {
+     "id":3,
+      "name":"Suraj",
+      "section":"D",
+      "marks":95,
+      "grade":"A+"
+    }
+     {
+     "id":4,
+      "name":"Piyush",
+      "section":"W",
+      "marks":65,
+      "grade":"B"
+    }
+     {
+     "id":5,
+      "name":"Vaibhav",
+      "section":"AA",
+      "marks":65,
+      "grade":"B"
+    }
+     {
+     "id":6,
+      "name":"Lokesh",
+      "section":"E",
+      "marks":75,
+      "grade":"A"
+    }
+     {
+     "id":7,
+      "name":"Sanjay",
+      "section":"E",
+      "marks":75,
+      "grade":"A"
     }
   ]
 }
