@@ -1,4 +1,4 @@
-# Student Management System (Mini Project)
+## Student Management System (Mini Project)
 
 ## Overview
 
