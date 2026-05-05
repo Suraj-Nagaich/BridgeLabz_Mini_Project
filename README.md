@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Student Management System built using HTML, CSS, JavaScript, AJAX, and JSON Server.
+The project is a Student Management System built using HTML, CSS, JavaScript, AJAX, and JSON Server.
 It supports Create, Read, Update, Delete (CRUD) operations for student data stored on a JSON Server.
 
 ## Features
